@@ -3,3 +3,4 @@
 :END:
 #+title: 165110012021
 
+Cloning is the process of copying an existing object and allocating to it a different location in memory from the original object.

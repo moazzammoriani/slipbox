@@ -3,3 +3,8 @@
 :END:
 #+title: 202109061335
 
+#css
+
+What does the css `transition` property do?
+
+if there is are other properties being applied dynamically to an element then the transition property specifies the period of time over which it will be applied continiously. 

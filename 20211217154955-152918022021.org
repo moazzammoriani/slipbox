@@ -3,3 +3,15 @@
 :END:
 #+title: 152918022021
 
+$P$|$Q$|$P\to Q$
+:-- | -- | --------:
+F|F|T
+F|T|T
+T|F|F
+T|T|T
+
+If we take a look at the truth table for the conditional connective we can see clearly that it make no sense to change the third and fourth lines. It may be more reasonable to ask what would happen if we change the first and second lines so let's try doing that.
+
+By changing the first line, we can conclude $Q$ from based solely on the premise $P\to Q$ because according to this altered truth table $Q$ is always true when $P\to Q$ is true. This altered truth table allows us to make inferences that we shouldn't be able to make according to common sense. 
+
+Now let us try changing the second line only. This change allows us to conclude $P$, given that $P\to Q$ and $Q$ are true. This makes no sense because that means that if the statements $(\text{Ali didn't do his homework})\to (\text{Ali will be in trouble})$ and $\text{Ali will be in trouble}$ are true then we can conclude that $\text{Ali didn't do his homework}$. Such an inference would not be wise because Ali could have done his homework but done something else that got him into trouble.

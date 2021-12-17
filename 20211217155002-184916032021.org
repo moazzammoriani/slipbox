@@ -3,3 +3,11 @@
 :END:
 #+title: 184916032021
 
+The associative law in propositional logic says that if $P$, $Q$ and $R$ are propositions then
+
+$$\begin{align}
+P\lor (Q\lor R) \text{ is equivalent to } (P\lor Q) \lor R\\
+\text{and } P\land (Q\land R) \text{ is equivalent to } (P\land Q) \lor R.
+\end{align}$$
+
+This can be proven by comparing the truth tables in both the statements.

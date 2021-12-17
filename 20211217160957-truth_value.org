@@ -3,3 +3,4 @@
 :END:
 #+title: Truth Value
 
+The truth value of a statement is its state of either being true or false.

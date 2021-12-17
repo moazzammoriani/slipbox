@@ -3,3 +3,7 @@
 :END:
 #+title: 123828042021
 
+How to compile C code which includes cs50 library on my zsh terminal?
+
+I faced this problem when I was compiling a basic hello program where the I called the get_string() function from the cs50 library but it turned out that I needed to tell gcc to refer to the cs50 library by using the -lcs50 option. I tried running `` $ gcc hello.c -o hello -lcs50`` and it worked like a charm.
+

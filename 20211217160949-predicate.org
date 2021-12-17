@@ -3,3 +3,4 @@
 :END:
 #+title: Predicate
 
+A predicate is a proposition that involves a variable so its truth value is not known until we know what that variable represents. For example, the predicate $P(x)$ can could represent the proposition "$x$ is a human", where $x$ is a free variable. The moment we assign a value to $x$ we end up with a proposition. For instance $x$ = "Moazzam" would make the predicate $P(x)$ mean that "Moazzam is a human" which is indeed a proposition that is true.

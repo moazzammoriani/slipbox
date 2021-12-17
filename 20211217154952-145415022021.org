@@ -3,3 +3,6 @@
 :END:
 #+title: 145415022021
 
+Stacking two perfect fourths on top of each other yields a Dominant Seventh Sus4 chord.
+
+#music_insights

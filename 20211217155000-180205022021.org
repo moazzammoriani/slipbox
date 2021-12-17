@@ -3,3 +3,6 @@
 :END:
 #+title: 180205022021
 
+People's [[Mental Model|mental models]] of the world can be vastly different from everyone else's just like how a young CGP Grey didn't know that a board is for the students and not for the teachers (mentioned in Cortex 100-110) because his poor vision had remained undiagnosed and just like how that person from the Words episode on radiolab didn't know that all things have an associated name because he was deaf. Such differences in mental models vary depending on the amount of information available. This information can be perceptual or just data about the world. Someone's upbringing and social background and influence the mental models that they form as well.
+
+#speaking

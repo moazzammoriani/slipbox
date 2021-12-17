@@ -3,3 +3,4 @@
 :END:
 #+title: The Higher Layers
 
+This is usually just called the application layer and the protocols here can vary depending on the application that is being used. Common 

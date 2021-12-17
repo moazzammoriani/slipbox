@@ -3,3 +3,4 @@
 :END:
 #+title: 153316022021
 
+A proposition or a statement is a formalized idea of a declarative sentence that can be either true or false.

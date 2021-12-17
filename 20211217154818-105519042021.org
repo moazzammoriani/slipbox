@@ -3,3 +3,6 @@
 :END:
 #+title: 105519042021
 
+When I draw a shape in p5.js in the draw function why doesn't the shape flicker if a loop constantly updates the background and circle?
+
+If you understand that an animation program uses the principle of a infinite loop to then this would be a natural question. It is note the case that the flickering is imperceptible rather, the animation library in p5.js and in most animation libraries make the decisions on every loop to decide what result to show to the user. The imperceptible flickering may still happen if these decisions aren't made though because computers are super fast.

@@ -3,3 +3,6 @@
 :END:
 #+title: 225304042021
 
+When [[Learning|learning]] a complicated new idea it is best to build the big-picture as soon as possible using its constituent main ideas. To satisify curiousity or out of pure necessity one can tighten the circles[^1] by adding ever increasing layers of detail to the big picture itself and the constituent ideas. Having a big-picture allows us to build better associations to for the constituent ideas.
+
+Learning about the big picture would save learning time like how it would have done so when learning the [Bits and Bytes of Programming](obsidian://open?vault=Reflection&file=195604042021)

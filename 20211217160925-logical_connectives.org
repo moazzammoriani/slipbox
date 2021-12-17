@@ -3,3 +3,6 @@
 :END:
 #+title: Logical Connectives
 
+A logical connective is an operation that can be applied to statements to get a truth value. There are are connectives that can be applied to one statement and there our connectives that connect two or more statements. The truth value of the resulting compound statement is defined by the truth table of the that connective. In propositional logic, there are five primary logical connectives called [[Negation|negation]], [[Conjunction|conjunction]], [[Disjunction|disjunction]], [[Conditional|conditional]] and [[Biconditional|biconditional]] which are expressed using the symbols $\lnot$,  $\land$, $\lor$, $\to$ and $\leftrightarrow$, respectively.
+
+It is important to keep in mind that the goal of propositional logic is precision whereas the goal of everyday langauge is to make communication easy. These goals come at odds with each other sometimes when the logical statements we try to express colloquially using everyday language are not immediately obvious because of the phrasing or the wording.

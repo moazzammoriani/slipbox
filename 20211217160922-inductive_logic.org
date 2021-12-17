@@ -3,3 +3,4 @@
 :END:
 #+title: Inductive logic
 
+Inductive logic is a type of reasoning where a the conclusion drawn from a set of premises can only have a likelihood of being true.

@@ -3,3 +3,16 @@
 :END:
 #+title: Equivalence laws
 
+Equivalence laws or rules of replacement are useful because they can simplify complicated logical statements for us to streamline thought. These laws are mentioned below.
+
+1. [[DeMorgan's Laws]]
+2. [[184916032021|Associative Law]]
+3. [[190716032021|Commutative Law]]
+4. [[Idempotent Law]]
+5. [[161718032021|Distributive Laws]]
+6. [[Double Negation Law]]
+7. [[Absorption Laws]]
+8. [[Tautology Laws]]
+9. [[Contradiciton Laws]]
+10. [[Conditional Laws]]
+11. [[Contrapositive Law]]

@@ -3,3 +3,4 @@
 :END:
 #+title: Aliasing
 
+When an object can be referred to using different paths then we say that object is aliased.

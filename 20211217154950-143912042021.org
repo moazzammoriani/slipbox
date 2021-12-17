@@ -3,3 +3,4 @@
 :END:
 #+title: 143912042021
 
+How do two nodes exchange data with each other after they have established a TCP connection? 

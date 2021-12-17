@@ -3,3 +3,14 @@
 :END:
 #+title: Necessity and Sufficiency
 
+In propositional logic, if $N$ is a necessary condition for $S$ then $S\to N$ is true. Similarly, if we say that $S$ is a sufficient condition for $N$ we also mean $S\to N$.
+
+This can be thought of as the truth of $N$ is a necessary if $S$ is true. And the truth of $S$ is sufficient but not a gaurantee for the truth of $N.$
+
+Necessity examples:
+ - It is necessary for a human to have oxygen in order for that human to live. Thus, if we let $O(x)$ stand for "The human $x$ has oxygen" and $L(x)$ for "The human $x$ is living" we can write $L(x)\to O(x)$.
+ - Thunder is a necessary condition to lightning
+
+Sufficiency examples:
+ - If Noor is a Queen then that is a sufficient condition that she is female. 
+ - Ali committing a murder is a sufficient condition for him to be sent to jail.

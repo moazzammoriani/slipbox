@@ -3,3 +3,4 @@
 :END:
 #+title: The Transport Layer
 
+This layer is concerned with getting data to some application or process running on a computer. Services communicate with one another using sockets whose address is determined by the type of transport protocol, the IP address and the port number.

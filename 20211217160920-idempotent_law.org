@@ -3,3 +3,11 @@
 :END:
 #+title: Idempotent Law
 
+The idempotent law in propositional logic states that for any proposition $P$,
+
+$$
+\begin{align}
+P\land P \text{ is equivalent to } P\\
+P\lor P \text{ is equivalent to } P
+
+\end{align}

@@ -3,3 +3,4 @@
 :END:
 #+title: Imperative Programming
 
+Imperative programming is programming paradigm in which the focus is on specifying the explicit step-by-step algorithm that the computer has to execute. Hence, the [[Control Flow|control flow]] of the program is explicitly specified. 

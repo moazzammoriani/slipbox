@@ -3,3 +3,6 @@
 :END:
 #+title: The role of data structures in algorithm design
 
+What is the role of a a data structure in algorithm design?
+
+A data structure is an elementary component from which an algorithm is built. It can be used as a scaffold for an algorithm or as a its basic building block. In many ways the run-time complexity of an algorithm can be dependent precisely on the choice of the data structure.

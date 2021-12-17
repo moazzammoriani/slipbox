@@ -3,3 +3,5 @@
 :END:
 #+title: 140416012021
 
+What is the purpose of conversations?
+-	They are means of exchanging insights,perspective, feelings and thoughts about the world and oneself.

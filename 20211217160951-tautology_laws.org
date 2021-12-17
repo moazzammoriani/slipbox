@@ -3,3 +3,5 @@
 :END:
 #+title: Tautology Laws
 
+1. When you connect a proposition to a tautology with a conjunction, the resulting statement is equivalent to that proposition. This is because the formula is only false when $P$ is false.                                                                                          $$                                                  P\land (tautology) \text{ is equivalent to } P   $$
+2. When you connect a proposition to a tautology with a disjunction, the resulting statement will be a tautology. This is obvious because the presence of the tautology will always keep the whole formula true.   $$                            P\lor (tautology) \text{ is a tautology } $$                                                  

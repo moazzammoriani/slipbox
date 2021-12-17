@@ -3,3 +3,10 @@
 :END:
 #+title: Testing by construction
 
+An effective way to [[test]] one's own [[Understanding|understanding]] about a topic is by checking if you can
+
+1. Recall all the fundamental ideas that comprise it;
+2. Strip the fundamental ideas to only their crucial role in forming the big picture;
+3. You are able to correctly establish the structure of how the fundamental ideas relate with each other to form the bigger picture;
+
+During this process you may realize you are not able to recall the fundamental ideas, you do not know the role an fundamental idea plays in forming the bigger picture or you may not understand their relationships with one another. The questions that you ask following this process will lead you closer towards a better understanding of that topic.

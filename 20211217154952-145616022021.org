@@ -3,3 +3,4 @@
 :END:
 #+title: 145616022021
 
+A valid deductuve argument is one in which the [[150016022021|premises]] necessitate the [[150116022021|conclusion]]. 

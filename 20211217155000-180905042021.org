@@ -3,3 +3,10 @@
 :END:
 #+title: 180905042021
 
+How to solve a problem in which the provided data is a linearly varying speed $v(t) = a + bt$ which varies for some time $t_0$ and the unknown is the distance it travels in time $t_0$?
+
+Our life would have been easier if the speed didn't vary and the speed at any given time $t$ was simply $a$ instead of $a +bt$. Let us suppose that the speed is in fact $a$ and then the distance traveled in time $t_0$ will be $at_0$. If we represent speed on the vertical axis and time on the horizontal axis in the cartesian plane then distance $at_0$ is given by the shaded area below the line.
+
+![[const_speed.jpg|400]]
+
+If we are to accept that the area below any speed curve up to a point on the horiztontal axis is the distance travelled by that object up to that point in time then finding the distance travelled by an object with varying speed $v(t)$ becomes easier. We then simply find the area bound by v(t)

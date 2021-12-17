@@ -3,3 +3,6 @@
 :END:
 #+title: Mutability
 
+An object is mutable if it can be [[164110012021|mutated]]. This is contrast with immutable objects which cannot be mutated. 
+
+Mutable objects can be mutated whereas immutable objects cannot be mutated. This means that if you modify some mutable object you will have the consequence of changing the value of all prexisting [[Aliasing|aliases]] to that object.

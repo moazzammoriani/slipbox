@@ -3,3 +3,8 @@
 :END:
 #+title: 165204012021
 
+Whenever you are [[Learning|learning]] something, solving as many problems as possible and having solutions to check against is an incredibly effective way to test yourself and look for gaps in understanding. 
+
+The method of [[Testing by construction]] is useful both in memory and in checking understanding. A subsequent use of the Feynman method to test understanding will further reveal any gaps or misunderstanding if there are any. 
+
+Doing all the above systematically and periodically--taking into account spacing, interleaving and effective inclusion of all topics--would cement the knowledge and understanding into long-term memory and also allow for a deep understanding of the world.

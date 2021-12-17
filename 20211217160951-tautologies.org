@@ -3,3 +3,4 @@
 :END:
 #+title: Tautologies
 
+A tautology is a proposition that is always true. An example would be $P\lor \lnot P$.

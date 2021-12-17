@@ -3,3 +3,6 @@
 :END:
 #+title: 202106051415
 
+What is the difference between a block-level element in html and a inline-level element?
+
+A block level element will typically start on a different line, its width will be as wide as its container, irrespective of its content. In constrast, a inline-level element will only be as wide as its content and will typically remain on the same line.

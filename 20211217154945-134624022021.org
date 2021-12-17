@@ -3,3 +3,11 @@
 :END:
 #+title: 134624022021
 
+Defining a set in terms of ellipsis notation involves illustrating the pattern the elements exhibit in that sense. For example, the set $A$ that contains all the integers from 1 to 10, inclusive can be defined by ellipsis as
+
+$$
+A = \{1,2,3,\dots,9,10\}.
+$$
+
+This way of defining a set has the caveat of being vague where the pattern may not necessarily be obvious or if the some enumeration of elements imply a pattern that does not generally apply to the whole set.
+

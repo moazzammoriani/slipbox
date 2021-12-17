@@ -3,3 +3,4 @@
 :END:
 #+title: Control Flow
 
+A control flow is the structure that allows the program to implement complex decision-making through [[131508012021|branching]], [[Iteration|iteration]] and [[Halting|halting]].

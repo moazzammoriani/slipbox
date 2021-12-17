@@ -3,3 +3,17 @@
 :END:
 #+title: 190716032021
 
+The commutative law in propositional logic states that for any two propositions $P$ and $Q$
+
+$$
+\begin{align}
+
+
+P\lor Q \text{ is equivalent to } Q \lor P \\
+P\land Q \text{ is equivalent to } Q\land P
+
+
+\end{align}
+
+$$
+

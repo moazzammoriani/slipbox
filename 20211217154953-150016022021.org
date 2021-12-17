@@ -3,3 +3,4 @@
 :END:
 #+title: 150016022021
 
+A premise is a statement that supports the conclusion of an argument.

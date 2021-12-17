@@ -3,3 +3,6 @@
 :END:
 #+title: 202106051409
 
+What is the display propery in CSS?
+
+This property determines how an element will be displayed. For example, it can have a value of `block`, `in-line`, `inline-block` and `none`.

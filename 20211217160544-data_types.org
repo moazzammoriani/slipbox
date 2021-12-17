@@ -3,3 +3,4 @@
 :END:
 #+title: Data Types
 
+A data type is a classification of some object so that we may know all the possible legal operations that can be performed on that object.

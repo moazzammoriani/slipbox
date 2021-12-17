@@ -3,3 +3,6 @@
 :END:
 #+title: 110219042021
 
+How do animation programs work on computers?
+
+Usually there are sets of instruction that are sent to to the computer to tell it which pixels--using a coordinate system--it needs to use to create a canvas. Once the frame is created a background can be placed inside it and this can be static or put inside an infinite loop. This infinite loop is what will allow us to create the illusion of motion. As we already know that video is only made possible by moving frames at impercetibly fast rates to give us the illusion of motion. If we have some function that gives us the position of an object in motion in 2D then we can animate this motion by breaking up the continous motion into frames separated by some time interval. The time interval need only be small enough to fool human perception. Now we can just put this data for each frame in our (infinite) loop and have it produce motion.

@@ -3,3 +3,4 @@
 :END:
 #+title: The Network Layer
 
+This layer is concerned with how information travels from one network to another. Networks are identified using Network addresses which is implemented using IP. The PDU at this level is usually called a datagram. Packets at this layer on a network rely on routers to send them to their destination network.

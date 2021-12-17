@@ -3,3 +3,6 @@
 :END:
 #+title: Metacognition
 
+Metacognition is the state of knowing or being aware of one's own cognition; skills, knowledge and thoughts. Knowledge and awareness of one's own memory is known as Metamemory. To gain more updated metacognitive knowledge we must utilize [[test|testing]] regularly. Therefore, an [[165204012021|exterior system]] is necessary to gain any such knowledge. 
+
+

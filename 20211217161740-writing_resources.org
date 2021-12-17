@@ -3,3 +3,12 @@
 :END:
 #+title: Writing Resources
 
+# Writing: Resources
+
+Created: May 3, 2020 7:01 PM
+Tags: list
+Updated: May 3, 2020 7:04 PM
+
+- The youtube algorithm recommended [this](https://www.youtube.com/watch?v=vtIzMaLkCaM) video about writing effectively by Larry McEnerney who is the director of the UChicago Writing Program.
+- I further got recommended [this](https://www.youtube.com/watch?v=OV5J6BfToSw) video by Steven Pinker where he talks about the state of writing in today's world.
+- The edX academic writing course by berkeley that i have signed up for

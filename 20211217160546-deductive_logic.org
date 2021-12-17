@@ -3,3 +3,4 @@
 :END:
 #+title: Deductive logic
 
+Deductive logic is a type of reasoning where the conclusion derived from a set of premises is necessarily true.

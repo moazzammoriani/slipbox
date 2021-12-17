@@ -3,3 +3,4 @@
 :END:
 #+title: Abstraction
 
+This is the process of removing all the irrelevant details to distill an idea into its bare essentials.

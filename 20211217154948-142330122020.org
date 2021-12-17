@@ -3,3 +3,4 @@
 :END:
 #+title: 142330122020
 
+When I am speaking I don't focus on the right things. I should be focused on the structure of what I need to say and the content of each point that I am making should be abstracted in my head instead.This will become easier as I keep following [[143330122020]] #speaking 

@@ -3,3 +3,4 @@
 :END:
 #+title: 195321022021
 
+When [[Learning|learning]]something new it's okay to get a focus on building a comprehensive understanding of the subject i.e the big-picture and then allow yourself to tweak and expand on the smaller elements later.

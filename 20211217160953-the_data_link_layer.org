@@ -3,3 +3,4 @@
 :END:
 #+title: The Data Link Layer
 
+This layer is concerned with how information encoded in bits travels from one physical address to another on a LAN. The flow of information can only happen by following the protocols of the technologies used to link physical addresses together on a LAN. Ethernet and wi-fi are the most common technologies used to achieve this.

@@ -3,3 +3,12 @@
 :END:
 #+title: Biconditional
 
+The biconditional connective is short-hand for $(P\to Q)\land(Q\to P)$, where $P$ and $Q$ are any two statements. A biconditional statement involving two statements is only true if either both of the statements are false or if both of the statements are true. This definition of the by conditional connective gives us the following truth table. 
+
+$P$|$Q$|$P\leftrightarrow Q$
+:-- | -- | --------:
+F|F|T
+F|T|F
+T|F|F
+T|T|T
+

@@ -3,3 +3,4 @@
 :END:
 #+title: Antecedent
 
+In any conditional statement $P\to Q$, where $P$ or $Q$ are any statements, $P$ is called the antecedent.

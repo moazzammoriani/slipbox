@@ -3,3 +3,4 @@
 :END:
 #+title: Understanding
 
+Understanding is the process of gaining insight creating a [[Mental Model|mental model]].

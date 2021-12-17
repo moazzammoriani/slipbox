@@ -3,3 +3,25 @@
 :END:
 #+title: Why induction proofs make sense
 
+Why does a proof by induction of something like $1+2+\cdots +n = \frac{n(n+1)}{2}$ make sense?
+
+The base case would involve showing that the forumula does indeed work for some lower bound of $0$ or $1$. Let's allow $0$ to be the base case for now.:
+
+$$\frac{0(0 + 1)}{2} = 0.$$
+
+Now we try to prove the implication $P(n) \rightarrow P(n+1)$ to open up this truth to all the integers greater than $0$ . A direct proof of this would involve assuming $P(n)$ and then proving $P(n+1)$.  
+
+What would this direct proof require us to do in the context of the current proof? We need to show that $\sum_{i=0}^{n+1} i = \frac{(n+1)(n+2)}{2}$ is forced upon us if we assume that $\sum_{i=0}^{n} i = \frac{n(n+1)}{2}$.
+
+We show can show this in the following way
+
+$$
+\sum_{i=0}^{n+1} i = \sum_{i=0}^{n} i + (n+1)
+= \frac{n(n+1)}{2} + (n+1)
+= \frac{(n+1)(n+2)}{2}
+$$
+
+What has happened here is that we have shown that because the formula does in fact work we can rearrange the sum algebraically to show that if it works for $n$ then the addition of $n+1$ would simply result in the same formula except its for $n+1$ and that the $n+1$ has nicely settled into its rightful place in the formula. 
+
+We can reason that since we have shown that the base case is true i.e $P(0)$ and because we have proved the inductive step i.e $P(n) \rightarrow P(n +1)$  then $P(0) \rightarrow P(1)$ is true. Moreover,  $P(1) \rightarrow P(2)$ and so on until we please. Thus, this shows that the formula is true for all natural numbers.
+

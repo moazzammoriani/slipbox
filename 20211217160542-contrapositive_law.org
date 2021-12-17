@@ -3,3 +3,6 @@
 :END:
 #+title: Contrapositive Law
 
+The contrapositive law states that 
+
+$$ P\to Q \text{ is equivalent to } \lnot Q\to \lnot P$$
