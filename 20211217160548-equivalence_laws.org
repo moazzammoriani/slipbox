@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       b1924ef4-f568-4daa-9ff3-672a38a5f1c3
+:END:
+#+title: Equivalence laws
+

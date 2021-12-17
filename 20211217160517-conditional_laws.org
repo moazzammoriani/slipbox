@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       26330532-d460-4254-8314-921e50ee3cfc
+:END:
+#+title: Conditional Laws
+

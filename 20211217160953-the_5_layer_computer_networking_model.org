@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       d263297a-df06-46fe-bad2-a8ecbd058091
+:END:
+#+title: The 5-layer computer networking model
+

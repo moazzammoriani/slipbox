@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       bc28b823-c4da-491b-9a18-2f1e2934b914
+:END:
+#+title: Double Negation Law
+

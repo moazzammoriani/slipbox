@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       ebf91dc2-2f65-4258-a867-9621a8e385c3
+:END:
+#+title: Propositional Logic
+

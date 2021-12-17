@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       cc6008c5-91bd-4fa5-b4d1-1ff08049e2d7
+:END:
+#+title: Truth Value
+

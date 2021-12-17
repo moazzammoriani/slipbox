@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       3a69aaaf-46fb-4e46-b8cb-73c6e2dce734
+:END:
+#+title: Problem-solving
+

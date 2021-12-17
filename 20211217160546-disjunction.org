@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       cd95374d-9406-418f-b605-4da234db7145
+:END:
+#+title: Disjunction
+

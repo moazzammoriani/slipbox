@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       fc23cb3a-4325-479d-b65f-83a7b5a76674
+:END:
+#+title: Exclusive disjunction
+

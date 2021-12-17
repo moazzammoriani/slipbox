@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       15802dfe-2201-4dee-bd75-b10fcd85d2a4
+:END:
+#+title: The role of data structures in algorithm design
+

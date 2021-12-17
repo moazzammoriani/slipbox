@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       133a3655-e6f6-4492-87d5-ae90fdd257b3
+:END:
+#+title: Day Architecture
+

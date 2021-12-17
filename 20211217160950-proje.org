@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       a16b966a-842a-4ae1-8cf9-9565ed8952c1
+:END:
+#+title: Proje
+

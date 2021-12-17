@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       3274e03e-8b2e-4f46-8bf3-1cd8720e9121
+:END:
+#+title: Contrapositive Law
+

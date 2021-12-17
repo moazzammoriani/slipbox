@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       57292509-190e-4410-9762-15f4f0280387
+:END:
+#+title: Heuristics
+

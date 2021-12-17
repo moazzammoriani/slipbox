@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       8882fdb3-e07b-4dab-96f6-776e928d89b1
+:END:
+#+title: Why induction proofs make sense
+

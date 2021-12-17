@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       8261fcaf-f840-44a5-b1f7-945c8a306903
+:END:
+#+title: Inductive logic
+

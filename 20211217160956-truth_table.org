@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       983d92b6-2cde-4cb4-ac43-542262590281
+:END:
+#+title: Truth Table
+

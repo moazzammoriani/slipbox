@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       9e061cf1-5cf1-439c-a2b8-cefa8b6f82ac
+:END:
+#+title: Asymptotic dominance relations
+

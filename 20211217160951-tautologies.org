@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       3271eaec-b063-4099-853e-8593599a63d3
+:END:
+#+title: Tautologies
+

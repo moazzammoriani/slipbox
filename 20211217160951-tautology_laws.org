@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       e13cd37a-c56c-442d-bf9e-fcea1923c8e2
+:END:
+#+title: Tautology Laws
+

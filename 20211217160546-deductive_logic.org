@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       0f1d6bb3-3786-4769-bc49-05bbd9efa3ac
+:END:
+#+title: Deductive logic
+

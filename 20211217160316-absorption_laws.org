@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       f74b1073-e689-4a1b-a0d8-01e37c2e76ca
+:END:
+#+title: Absorption Laws
+

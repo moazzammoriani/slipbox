@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       fbc6988d-3957-4c8c-8f89-2ed29b27bc16
+:END:
+#+title: Lambda Expressions
+

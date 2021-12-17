@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       6cff9481-9fd4-46a2-9e7b-ba4012e3d25a
+:END:
+#+title: Abstraction
+

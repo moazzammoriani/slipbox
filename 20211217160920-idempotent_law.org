@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       5a787c5c-1dfe-4f10-a31b-f9adc76b651f
+:END:
+#+title: Idempotent Law
+

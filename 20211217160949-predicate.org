@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       b242e89c-7a7a-414e-8c53-a32223011559
+:END:
+#+title: Predicate
+

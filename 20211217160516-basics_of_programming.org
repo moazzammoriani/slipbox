@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       e67d49f4-3054-4d71-8b51-80d7905cd865
+:END:
+#+title: Basics of Programming
+

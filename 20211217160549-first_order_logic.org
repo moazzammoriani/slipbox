@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       deb4c13f-1d0c-42ea-beee-65b93232155b
+:END:
+#+title: First-order Logic
+

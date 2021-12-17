@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       7ad60db3-9924-4c79-b635-666459c9603e
+:END:
+#+title: Logical Connectives
+

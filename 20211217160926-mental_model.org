@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       80267e33-02cc-440e-853b-3597ca35764f
+:END:
+#+title: Mental Model
+

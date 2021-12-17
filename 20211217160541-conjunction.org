@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       9abcf450-495a-47e3-8c2b-e82f84d879b6
+:END:
+#+title: Conjunction
+

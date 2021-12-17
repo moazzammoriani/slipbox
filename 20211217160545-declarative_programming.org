@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       946c7f30-a0b2-41ec-8c49-3798324a0497
+:END:
+#+title: Declarative Programming
+
