@@ -3,3 +3,4 @@
 :END:
 #+title: For Loop
 
+A for loop is a [[Control Flow|control flow]] statement to implement iteration where the number of iterations are kept track of using some initially defined loop counter.

@@ -3,3 +3,12 @@
 :END:
 #+title: 135224022021
 
+Defining a set in terms of set-builder notation is done by specifying a statement involving a variable, whose satisfaction determines the elements of the set.
+
+$$
+A = \{x\in U\mid P(x)\} = \{x\in U\colon P(x)\}.
+$$
+
+The above notation is read as the "the set of all $x$ in $U$" and the vertical bar or colon is read as "such that" and then statement is read out.
+
+If we want to define a set using set-builder notation we should be able to define its elements in terms of an elementhood test which may be difficult to do sometimes.

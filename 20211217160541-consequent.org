@@ -3,3 +3,4 @@
 :END:
 #+title: Consequent
 
+In any conditional statement $P\to Q$, where $P$ or $Q$ are any statements, $Q$ is called the consequent.

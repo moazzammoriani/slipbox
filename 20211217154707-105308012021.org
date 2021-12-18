@@ -3,3 +3,4 @@
 :END:
 #+title: 105308012021
 
+An [[Imperative Programming|imperative]] program usually focuses more on what the computer should be doing, in contrast with a [[Declarative Programming|declarative]] program which focuses on the how of what a programming language ought to be doing. Thus, the [[Control Flow|control flow]] in an imperative program is more explicit whereas in a declarative program it can only be inferred.

@@ -3,3 +3,8 @@
 :END:
 #+title: Asymptotic dominance relations
 
+When we have some function that always grows faster than another function, that is, it always dominates the other function once it is allowed to sufficiently grow then we call this a dominance relation. 
+
+A more precise definition would be the following. The  function $g$ dominates $f$ if
+
+$$ \lim_{x \to \infty} \frac{f(n)}{g(n)} = 0.$$

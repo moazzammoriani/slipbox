@@ -3,3 +3,4 @@
 :END:
 #+title: Mental Model
 
+A mental model is an internal representation of declarative, procedural or both of those kinds of knowledge.

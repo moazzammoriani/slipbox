@@ -3,3 +3,8 @@
 :END:
 #+title: Conditional Laws
 
+The conditional laws arise from the definition of the truth table of the [[Conditional|conditional connective]]. The conditional laws state that
+$$\begin{align}
+\text{(1) } P\to Q \text{ is equivalent to } \lnot P\lor Q \\ 
+\text{(2) } P\to Q \text{ is equivalent to } \lnot(P\land \lnot Q)
+\end{align}$$.

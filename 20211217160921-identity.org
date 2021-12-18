@@ -3,3 +3,4 @@
 :END:
 #+title: Identity
 
+All objects have a unique location allocated to them in memory. It is m

@@ -3,3 +3,4 @@
 :END:
 #+title: 143009012021
 
+A function is a small program within the program it is defined in that may or may not return a value. [[Formal parameters]] may be used to define how the input of a function may be used within the body of the function definition.

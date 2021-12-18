@@ -3,3 +3,6 @@
 :END:
 #+title: 202108181316
 
+# Algorithmic Efficiency
+- How do we measure the efficiency of an algorithm?
+- What is asymptotic notation?

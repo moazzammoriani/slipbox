@@ -3,3 +3,36 @@
 :END:
 #+title: 181014042021
 
+As an example, if we wanted to convert the demical number 97 to binary we would iteratively divide it by 2  and the resulting quotients as follows until we reach a quotient of 0.
+
+Division | Remainder
+---------| ----------
+$97/2$       | $1$
+$48/2$       | $0$
+$24/2$       | $0$
+$12/2$       | $0$
+$6/2$		  | $0$
+$3/2$         | $1$
+$1/2$ 		  | $1$
+
+This would give us a binary number of 1100001.
+
+Why does this method work?
+
+It is important to keep in mind that for any binary number like 1100001, the position of each 1 or 0 represents a power of 2, where the right-most digit represents $2^0$ and each left digit is power of 2 increased by one.
+
+$64$|$32$|$16$|$8$|$4$|$2$|$1$
+---- | -- | --| --| -- | --|--
+$2^6$|$2^5$|$2^4$|$2^3$|$2^2$|$2^1$|$2^0$
+$1$| $1$|$0$|$0$|$0$|$0$|$1$
+
+Instead of trying to figure out what powers of 2 add up to make up the number from the largest to the smallest, we try determine this by going from smallest to largest.
+
+- The remainder in the first line of $97/2$ tells us that our number is not divisible by 2 and so we need to add a 1 in the $2^0$ place of its binary representation, 
+- Our number appears to be $97 = 96 + 1 = 2(48) + 1$ we will work with figuring out the divisibility of 96 in the folowing steps because our conclusions will be easier to reach 
+- The lack of a remainder in the second line $48/2$ tells us that $96$ is divisible by 4, which tell us that our $2^1$ place must be a 0.
+- The third line $24/2$ tells us that $96$ is divisible by 8 and hence the $2^2$ place must be 0.
+- The fourth line $12/2$ tells us that $96$ is divisible by 16 and hence the  $2^3$ place must be a 0.
+- The fifth line $6/2$ tells us that $96$ is divisible by 32 and hence the $2^4$ place must be a 0.
+- The fifth line $3/2$ tells us that $96$ is not divisible by 64 and so the $2^5$ place must be a 1.
+- The sixth line $1/2$ tells us that $96$ is less than 128 and not divisible by it so the $2^6$ place must be a 1.

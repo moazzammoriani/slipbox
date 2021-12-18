@@ -3,3 +3,4 @@
 :END:
 #+title: Lambda Expressions
 
+A syntactical shorthand for the purposes of defining [[143009012021|functions]] that are not bound to any [[123309012021|variable]].

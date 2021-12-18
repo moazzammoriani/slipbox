@@ -3,3 +3,6 @@
 :END:
 #+title: 182930122020
 
+The chord Lady Stardust by David Bowie starts with is a bVII maj chord.
+
+#bVII_maj_chord

@@ -3,3 +3,37 @@
 :END:
 #+title: 161718032021
 
+The distributive laws in propositional logic say that for any propositions $P$, $Q$ and $R$
+
+$$
+\begin{align}
+\text{(1) } P\land (Q\lor R) \text{ is equivalent to } (P\land Q)\lor (P\land R); \\
+\text{(2) } P\lor (Q\land R) \text{ is equivalent to } (P\lor Q)\land (P\lor R).
+\end{align}
+$$
+
+The truth table for the proof of (1) is the following.
+
+$P$| $Q$ |$R$| $P\land (Q\lor R)$ | $(P\land Q)\lor (P\land Q)$ 
+--| --| --------| --------| -----
+F|F|F|F|F
+F|F|T|F|F
+F|T|F|F|F
+F|T|T|F|F
+T|F|F|F|F
+T|F|T|T|T
+T|T|F|T|T
+T|T|T|T|T
+
+And the truth table for the proof of (2) is the following.
+
+$P$| $Q$ |$R$| $P\land (Q\lor R)$ | $(P\land Q)\lor (P\land Q)$ 
+--| --| --------| --------| -----
+F|F|F|F|F
+F|F|T|F|F
+F|T|F|F|F
+F|T|T|T|T
+T|F|F|T|T
+T|F|T|T|T
+T|T|F|T|T
+T|T|T|T|T

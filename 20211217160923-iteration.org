@@ -3,3 +3,7 @@
 :END:
 #+title: Iteration
 
+This is the process of repeating some procedure with some end-goal in mind. 
+
+In a computer program, an iteration is the repeated execution of a block of code. It is possible that such an iteration may run indefintely. Iteration can be executed by a program through the use of a [[For Loop|for loop]], a [[While loop|while loop]] or an [[Iterator|iterator]].
+

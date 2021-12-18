@@ -3,3 +3,6 @@
 :END:
 #+title: 133410012021
 
+When dealing with structured data types, it is very easy to be fooled into thinking that two objects satisfy object-equality only because they satisfy value-equality. This can lead to some serious bugs especially if one of the objects is a [[Mutability|mutable]] type and is [[Aliasing|aliased]] somewhere else in the program and is [[164110012021|mutated]] as well.
+
+It is also possible to [[Iteration|iterate]] over a mutable stuctured data type and unwittingly mutate it at the same time. The solution to this would be to [[165110012021|clone]] that structured data type and modify the cloned version.

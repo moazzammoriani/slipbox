@@ -3,3 +3,4 @@
 :END:
 #+title: Heuristics
 
+Heuristics or rules of thumbs are mental shortcuts that we use in everyday life to simplify decision making.

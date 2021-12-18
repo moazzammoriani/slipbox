@@ -3,3 +3,8 @@
 :END:
 #+title: Turing machine
 
+A Turing machine is an abstract mathematical model that forms the basis of all that can be computed. Alan Turing describes it as something that can be formed using a machine that scans, reads and writes(and overwrites) an infinitely long memory tape.
+
+Alan Turing described a Turing machine in detail in his paper, On Computable Numbers, with an Application to the Entscheidungs where he directly addresses the problem that David Hilbert proposed. 
+
+He tackles the problem by first considering a human in a box who is given a book, a pencil and a piece of paper. The human can have an input of a sequence of symbols written down on that paper. This human can be pointing at some portion on the paper, this is called the *attention* of that human and they read whatever their attention is on. In the book, they have a table that specifies instructions about what they should do if they encounter certain symbol--combinations of moving, writing, rewriting, printing

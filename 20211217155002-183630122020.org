@@ -3,3 +3,6 @@
 :END:
 #+title: 183630122020
 
+Good art is consistent with the world it builds.
+
+#features_of_good_art

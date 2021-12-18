@@ -3,3 +3,4 @@
 :END:
 #+title: 143016012021
 
+What is the purpose of social activity?

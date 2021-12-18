@@ -3,3 +3,68 @@
 :END:
 #+title: Long Division
 
+What is long division?
+Long division is the standard algorithm used to perform division on the real numbers and its subsets. 
+
+How do you apply the division algorithm in a case like $154154154/154$?
+
+``` 
+      100100100
+    ---------
+154)154154154
+	154
+	---
+	000
+	   154
+	   154
+	   ---
+	   000
+	   	  154
+		  154
+		  ---
+		  000
+```
+
+- The largest multiple of 154 that divides 154 is 154 so the quotient of 1 goes to the top.
+- We subract 154 from 154 and move on the the rest of the dividend.
+- The largest multiple of 154 that goes into 1 is 0 so we add it to the quotient.
+- We move on and consider 15 and notice that the largest multiple of 154 that goes into 15 is 0 and so we add it to the quotient.
+- We deal with 154 as a whole and see that 154 divides 154 when multiplied by 1 and we proceed to add it to our quotient.
+- Repeating the same process for the remaining part of the dividend reveals  a quotient of 100100100.
+
+How do you apply the division algorithm when dealing with fractions?
+
+```
+  
+  0.33333...
+  -------------
+3)1.000000000000...
+  0
+  -------------
+  1 0
+    9
+  -------------
+	10
+     9
+	-----------
+	 10
+	  9
+     ----------
+	  10
+	   9
+	 ----------  
+	   10
+	    9
+	 ----------
+	    1
+		.
+		.
+		.
+		
+		
+```
+
+- In this example of $1/3$ we begin by asking what the smallest multiple of 3 that goes into 1 and the answer is 0 which is produced when 3 is mutliplied by 0 so we add it to the quotient.
+- We then add a decimal point to the quotient to indicate that we our now going to use our reserves of unlimited 0s that exist past the decimal point.
+- by utilizing the 0 in the 1/10th place and pretending as if the remaining 1 on the left side is a 10th we can carry on with our division.
+- The quotient seems to be 0.33333... and we could add 3s to this quotient infinitely many times.

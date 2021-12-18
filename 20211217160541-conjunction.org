@@ -3,3 +3,13 @@
 :END:
 #+title: Conjunction
 
+The conjunction of two statements is true only when both the statements are true and is false otherwise. For some statement $P$ and some statement $Q$, we write the conjunction of $P$ and $Q$ as $P\land Q$. The truth table of the conjunction of any two propositions is defined as the following.
+
+$P$|$Q$|$P\land Q$
+:-- | -- | --------:
+F|F|T
+F|T|F
+T|F|F
+T|T|F
+
+In colloquial language when we a statement "I will go out tonight" and another statement "I will sleep early tonight", the conjunction of these two statements would be "I will go out tonight and sleep early tonight".

@@ -3,3 +3,4 @@
 :END:
 #+title: 131508012021
 
+A branch is used in a [[Control Flow|control flow]] to deal with choice by breaking down all the possible cases. This is usually implemented through [[Conditional Statements|conditional statements]] that correspond to each particular case.

@@ -3,3 +3,4 @@
 :END:
 #+title: Formal parameters
 
+Formal parameters or simply parameters are [[123309012021|variables]] that may used as placeholders in the definition of a [[143009012021|function]] to demonstrate the form in which the [[Actual parameters|actual parameters]] may be used in an instance of the function being called.

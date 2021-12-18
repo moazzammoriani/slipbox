@@ -3,3 +3,4 @@
 :END:
 #+title: What is wealth?
 
+Wealth is  the amount of assets one has that people value.

@@ -3,3 +3,11 @@
 :END:
 #+title: Exclusive disjunction
 
+The exclusive disjunction of two statements is true only if one of the statements is true. The truth table of the exclusive disjunction is defined as follows.
+
+$P$|$Q$|$P\bigoplus Q$
+:-- | -- | --------:
+F|F|F
+F|T|T
+T|F|T
+T|T|F

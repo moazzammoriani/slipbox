@@ -3,3 +3,4 @@
 :END:
 #+title: 154906052021
 
+For any integer $a>0$ and $b>0$ is it true that $\frac{a + 1}{b+1} > \frac{a}{b}$ if $a<b$?

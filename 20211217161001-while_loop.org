@@ -3,3 +3,6 @@
 :END:
 #+title: While loop
 
+A while loop is a [[Control Flow|control flow]] statement which implements iteration where the number of iterations are controlled by a conditional statement. 
+
+A while loop runs if the given conditioninal statement is true hence it is necessary for the [[Conditional Statements|conditional statement]] to have a truth value that is false otherwise we may get an [[Infinite loop|infinite loop]] that may prevent a program from [[Halting|halting]]. 

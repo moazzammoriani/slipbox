@@ -3,3 +3,4 @@
 :END:
 #+title: UoL Course-Web Development
 
+I am going to use this course as an excuse to teach myself actual web development. It seems that the scope of this course is kind of trivial and the main goal is to familiarize the students with basic web technologies like HTML, CSS and Javascript.

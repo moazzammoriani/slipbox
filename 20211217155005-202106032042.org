@@ -3,3 +3,6 @@
 :END:
 #+title: 202106032042
 
+# What does the doc file declaration do in an HTML document?
+
+The docfile declaration specifies what version of html is being used.

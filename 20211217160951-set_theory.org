@@ -3,3 +3,7 @@
 :END:
 #+title: Set Theory
 
+A set is an unordered collection of distinct objects. The objects within a set are called its elements. We can make statements about the elementhood of objects in a set, we can say $a \in S$, which declares that object $a$ is an element of set $S$. Sets can be defined by [[132824022021|enumeration]], [[134624022021|ellipsis notation]] or we can use [[135224022021|set-builder notation]]. A set can also have no elements, this set is called the empty set and denoted by $\varnothing$ or $\{\}$. 
+
+We can perform a number of operations on sets that can be broken down in terms of [[First-order Logic|first-order logic]] and visualised as Venn diagrams. These operations on sets, by definition can allow us to express the truth sets of statements combined with propositional connectives. Moreover, these operations allow us to make propositions about sets and their relationships with one another. Sets can also be subsets of each other.
+

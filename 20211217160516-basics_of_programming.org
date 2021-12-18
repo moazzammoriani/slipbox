@@ -3,3 +3,10 @@
 :END:
 #+title: Basics of Programming
 
+Once you have a programming language in which you can work with integers, floating-point numbers, strings and [[123309012021|variables]] and apply operations on them in a particular syntax and static semantics to create expressions. However, in order to write programs which can execute intelligent decision-making by implementing algorithms we need some sort [[Control Flow|control flow]]. 
+
+The use of [[143009012021|functions]] allows us to freely reuse some code that we have already written and call on it to build even more complicated programs. We may even use functions as arguments to create [[Higher-order Programming|higher-order programs]]. They allow us to also make use of [[Abstraction|abstraction]] and give us the powerful tool of recursion--another way to solve problems involving repitition that is distinct from [[Iteration|iteration]].
+
+Structured data types give us the power to work with a large variety of data, different [[Data Types|data types]] and allows us to nest those structured data types as well. The objects within those structured data types can be referred to using some indexing mechanism. These structured data types can come in either a [[Mutability|mutable or immutable]].
+
+

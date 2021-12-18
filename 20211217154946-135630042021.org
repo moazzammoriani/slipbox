@@ -3,3 +3,6 @@
 :END:
 #+title: 135630042021
 
+What is HTML?
+
+HTML or HyperText Markup Language is a markup language used to structure the content on the web. A typical HTML document contains elements. 

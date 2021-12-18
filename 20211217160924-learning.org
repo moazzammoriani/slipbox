@@ -3,3 +3,4 @@
 :END:
 #+title: Learning
 
+Learning is the acquisition of new knowledge, understanding, behaviours, attitudes and values.

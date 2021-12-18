@@ -3,3 +3,8 @@
 :END:
 #+title: The Physical Layer
 
+This layer is concerned with how bits are transferred through some trasmission medium. The bits are transmitted through serial communication are encoded in electrical, radio and optical signals.
+
+At this layer a the main concern of networking would be the choosing the appropriate technology for a particular networking task. For example, if  I would like to set a up a data center I would need to decide whether devices should be connected wirelessly or through wires and what type of cables should would be fast enough to and which ones would be overkill.
+
+So yeah

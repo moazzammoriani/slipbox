@@ -3,3 +3,9 @@
 :END:
 #+title: 175814042021
 
+How do we convert a decimal number to a binary number?
+
+1. [[181014042021|Smaller to bigger]]
+2. Filling in the powers of 2.
+
+In theory both are the same.

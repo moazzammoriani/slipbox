@@ -3,3 +3,6 @@
 :END:
 #+title: Iterator
 
+If we can iterate over the elements of an object we say that object is iterator.
+ 
+In python these are objects like lists, tuples, the range type and strings.

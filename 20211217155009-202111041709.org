@@ -3,3 +3,7 @@
 :END:
 #+title: 202111041709
 
+#sicp
+#scheme
+
+Why can I define a sequence implicitly using `define` but I can't do it using a `let` expression?

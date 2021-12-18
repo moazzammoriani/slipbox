@@ -3,3 +3,4 @@
 :END:
 #+title: 150316022021
 
+A deductive argument consists of a set of [[150016022021|premises]] that support a [[150116022021|conclusion]]. 

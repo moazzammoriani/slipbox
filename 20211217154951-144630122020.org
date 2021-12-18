@@ -3,3 +3,9 @@
 :END:
 #+title: 144630122020
 
+ It would be wise to mentally rehearse a task and what to do next time when you have previously failed at the very same task before.
+	- *This is how you learn from your mistakes.*
+	- *This is also the kind of reflection that was talked about in Make It Stick.*
+	
+#good_learning_habits
+#speaking 

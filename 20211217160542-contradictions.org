@@ -3,3 +3,4 @@
 :END:
 #+title: Contradictions
 
+A contradiction is a proposition that is always false. An example would be $P \land \lnot P$

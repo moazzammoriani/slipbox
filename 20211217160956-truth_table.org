@@ -3,3 +3,4 @@
 :END:
 #+title: Truth Table
 
+A truth table lists down all the possible [[Truth Value|truth values]] of a [[Well-formed Formulas|well-formed formula]] corresponding to the all the permutations of the truth values of the [[153316022021|propositions]] that make it up. In propositional logic, the truth tables for all the [[Logical Connectives]] are defined, hence in order to generate any other truth table the truth tables of the primary logical connectives are invoked. The validity of deductive arguments can also be proved using truth tables.

@@ -3,3 +3,37 @@
 :END:
 #+title: Absorption Laws
 
+The absorption laws in propositional logic state that for any proposition $P$, $Q$ and $R$
+
+$$
+\begin{align}
+\text{(1) }P\lor (P\land Q) \text{ is equivalent to  } P \\
+\text{(2) } P\land (P\lor Q) \text{ is equivalent to } Q
+
+\end{align}
+$$
+
+The proof of the equivalance of (1) is given through the truth table below.
+
+$P$| $Q$ | $(P\land Q)$ | $P\lor (P\land Q)$ 
+--| --| --------| --------|
+F|F|F|F
+F|T|F|F
+T|F|F|T
+T|T|T|T
+
+And the proof of (2) is given by the truth table below.
+
+$P$| $Q$ | $(P\lor Q)$ | $P\land (P\lor Q)$ 
+--| --| --------| --------| 
+F|F|F|F
+F|T|T|F
+T|F|T|T
+T|T|T|T
+
+
+Statement (1) makes sense because to say that "I like trains or I like trains and airplanes" that only conveys the information that you like trains for sure. Another intuitive explanation would be looking at the Venn diagram of $A\cup(A\cap B)$. The resultant Venn diagram would be equivalent to $A$.
+                                                                        ![[AintB.jpg|200]] ![[AunB.jpg|200]]
+																		
+Statement (2) makes sense for similar reasons as (1) if you claim that "I like trains and I like trains or airplanes" you have really just said that you like trains and given no way to conclude that you may actually like airplanes or not. We can understand this using when diagrams as well. The Venn diagram of the set $A\cap (A\cup B)$ would also be simply $A$.
+                                                                        ![[AuntB.jpg]] ![[justA.jpg]]

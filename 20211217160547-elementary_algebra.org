@@ -3,3 +3,9 @@
 :END:
 #+title: Elementary Algebra
 
+Elementary builds on arithmetic and its operations, allowing us to reason about numbers without necessarily knowing what the numbers actually are. This is useful becuase: 
+- it allows us to write down expressions and identities for properties that our numbers have. 
+- It also also allows us to find unknown numbers by making inferences about it to solve equations
+- It allows us to express an algorithms more precisely.
+
+

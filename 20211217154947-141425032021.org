@@ -3,3 +3,10 @@
 :END:
 #+title: 141425032021
 
+How does the proof of the [[Contrapositive Law|contrapositive]] of a conditional prove the conditional itself?
+
+If $\lnot Q\to \lnot P$ is true then by by assuming $P$ you have no choice but to conclude $Q$. Thus, $P\to Q$.
+
+This paragraph is a more thorough explanation. If you wanted to to prove $P\to Q$ but you can't prove $Q$ directly, by assuming $P$. However, at the same time you may know that the conditional is equivalent to its contrapositive. So you try assuming that $\lnot Q$ is true and lo and behold you can prove that $\lnot P$ is true. This is in fact just a proof of $\lnot Q\to \lnot P$. Now suppose $P$. But since $\lnot Q\to \lnot P$, it must be the case that $Q$ is true. Thus, $P\to Q$.
+
+Take a look at this example

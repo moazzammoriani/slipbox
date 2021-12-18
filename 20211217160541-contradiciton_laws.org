@@ -3,3 +3,5 @@
 :END:
 #+title: Contradiciton Laws
 
+1. When you connect a proposition with a contradiction using a conjunction you get a contradiction. This makes sense because the truth contradiction will always keep the formula false.$$                  P\land (contradiction) \text{ is equivlent to a contradiction} $$
+2. When you connect a proposition with a contradiction using a disjunction then the resulting formula is equivalent to that proposition. This makes sense because the truth of the whole formula is controlled by the proposition. $$                P\lor (contradiction) \text{ is equivalent to a contradiction} $$

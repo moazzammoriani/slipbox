@@ -3,3 +3,4 @@
 :END:
 #+title: Conditional Statements
 
+A statement whose truth value is used to determine if a block of code will be executed or not. Usually the block of code is executed only if the conditional statement is true.

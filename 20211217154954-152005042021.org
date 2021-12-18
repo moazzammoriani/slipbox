@@ -3,3 +3,4 @@
 :END:
 #+title: 152005042021
 
+why can't  two computers on different IP addresses talk to each other directly through the [[internet|How computer networks work]]?

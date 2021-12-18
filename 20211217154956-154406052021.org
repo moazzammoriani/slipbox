@@ -3,3 +3,4 @@
 :END:
 #+title: 154406052021
 
+- Noticing patterns in math, proving them and then applying them in later problem-solving by [[Abstraction|abstracting]] is a powerful tool and I think that is one of the core ideas of mathematics.

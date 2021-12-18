@@ -3,3 +3,4 @@
 :END:
 #+title: 171217022021
 
+In propositional logic, any two statements are equivalent if they have the same truth table. By virtue of having the same truth table they intuitively also mean the same thing. 

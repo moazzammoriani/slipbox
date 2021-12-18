@@ -3,3 +3,4 @@
 :END:
 #+title: Declarative Programming
 
+Declarative programming is a programming paradigm where the focus lies more on specifying the procedures on concepts that need to be executed by a computer. The [[Control Flow|control flow]] may not be explicit but it would still be there.

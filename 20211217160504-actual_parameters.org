@@ -3,3 +3,4 @@
 :END:
 #+title: Actual parameters
 
+Actual parameters or arguments are the actual values used when calling a [[143009012021|function]]. The values are then assigned to [[Formal parameters|formal parameters]] and those are used provide the result

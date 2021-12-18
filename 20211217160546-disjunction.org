@@ -3,3 +3,14 @@
 :END:
 #+title: Disjunction
 
+The disjunction of two statement is true if both the statements are true or if at least one of the statements are true and is false only when both the statements are false. For some statement $P$ and some statement $Q$, we write the disjunction of $P$ and $Q$ as $P\lor Q$ Disjunction is an inclusive or, that is, it outputs true when both the statements it connects are true. This is in constrast to the [[Exclusive disjunction|exclusive or]] connective which outputs false when both the statements it connects are true. The truth table of the disjunction of any two propositions is defined as the following.
+
+$P$|$Q$|$P\lor Q$
+:-- | -- | --------:
+F|F|F
+F|T|T
+T|F|T
+T|T|T
+
+
+In everyday langauge it is a bit tricky to identify a disjunction because very often it is not obvious if we mean an exclusive dijunction or a inclusive disjunction. For example, when we say "you can have a brownie or a cookie" it would typically be assumed that the statement is and exclusive disjunction.

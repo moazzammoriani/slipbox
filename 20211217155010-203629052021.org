@@ -3,3 +3,6 @@
 :END:
 #+title: 203629052021
 
+# [[Imperative Programming| Imperative]] v. [[Declarative Programming|Declarative]] programming
+
+The whole explanation of an imperative program being a step-by-step instructions on *how* to produce 

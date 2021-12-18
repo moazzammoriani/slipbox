@@ -3,3 +3,4 @@
 :END:
 #+title: 124804012021
 
+[[test|Tests]] are often performed in society at [[125504012021|various levels]], by different institutions, for different purposes and not all of them are necessarily effective and for the best reasons.

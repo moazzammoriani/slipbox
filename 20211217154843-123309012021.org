@@ -3,3 +3,4 @@
 :END:
 #+title: 123309012021
 
+Any name used to refer to an object stored in memory is called a variable. 

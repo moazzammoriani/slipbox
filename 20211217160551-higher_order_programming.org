@@ -3,3 +3,4 @@
 :END:
 #+title: Higher-order Programming
 
+A style of programming in which [[143009012021|functions]] are treated as any other object as [[Actual parameters|arguments]] of some other funciton. An extensive use of [[Lambda Expressions|lambda expressions]] is made for convenience.

@@ -3,3 +3,4 @@
 :END:
 #+title: 150116022021
 
+A conclusion is an inference made from a set of premises in an argument.

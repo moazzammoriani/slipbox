@@ -3,3 +3,8 @@
 :END:
 #+title: Double Negation Law
 
+The double [[Negation|negation]] law states that for a proposition $P$,
+
+$$\lnot \lnot P \text{ is equivalent to P}$$.
+
+This is something that comes about due to the law of the excluded middle.

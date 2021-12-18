@@ -3,3 +3,12 @@
 :END:
 #+title: First-order Logic
 
+First-order logic, is built on top of [[Propositional Logic|propositional logic]] where the [[Predicate|predicates]] bridge between propositions and predicates is made using quantifiers. Assigning an object to a free variable of a predicate produces a proposition. In order to know exactly what objects allow for a predicate to be true, within the universe of discourse, we make use of a truth set.
+
+It is also useful to be able to make statements about how many objects make a predicate come out true or false from its universe of discourse. For this we use the universal and existential quantifiers.  A quantified variable becomes bound to its quantifier so it doesn't really matter what symbol we use to express the quantification of a variable. However, the order in which the existential and universal quantifiers occur does matter and it can change the meaning of a statement. All quantifiers are always associated with a set, when the universe of discourse is not explicitly stated then it is implicitly inferred depending on the meaning of the quantified predicate in question. Other times the set upon which a quantification is declared is explicitly stated. Such quantifiers whose sets are explicitly defined are called bounded quantifiers. 
+
+The idea of bounded quantifiers would then beg the question of what would happen if the set a quantifier is bounded to is the empty set, $\varnothing$. In such situations there are adequate definitions that helps us work with this possibility. 
+
+
+There are two important equivalences that involve quantifiers: the quantifier negation laws and the distrubutive properties of the quantifiers.
+

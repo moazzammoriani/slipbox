@@ -3,3 +3,48 @@
 :END:
 #+title: 202109031346
 
+What is the difference between the following ways to create an object constructor in javascript?
+
+Approach 1: 
+
+```
+function Foo(x, y) {
+	const obj = {};
+	obj.x = x;
+	obj.y = y;
+	obj.method = function () {};
+}
+```
+
+Approach 2: 
+
+```
+function Foo(x, y){
+	this.x = x;
+	this.y = y;
+	this.method = function() {}
+}
+```
+
+
+Answer:
+
+Approach 1	
+
+We can create an instance of Foo using Approach 1 without using the `new` keyword as shown below.
+
+`let myFoo = Foo(1, 2)`
+
+This makes sense because we are explicitly defining every step of the object's creation in this approach ourselves.
+
+Approach 2
+
+In order for javascript to parse `Foo` as a a constructor we let it know that `Foo` contains constructor information that needs to be added an object using the `new` keyword. We use `this` as a placeholder for whatever the name of the instance variable is going to be.
+
+`let myFoo = new Foo(1, 2)`
+
+The above code will instantiate `myFoo` as an object with the corresponding values and also the method that it comes with.
+
+`let myFoo = Foo(1,3)`
+
+Without the `new` keyword `myFoo` will end up with a value of undefined because javascript doesn't know that it's being given a function constructor.

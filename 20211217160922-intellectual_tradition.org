@@ -3,3 +3,4 @@
 :END:
 #+title: Intellectual Tradition
 
+Any group of people with a common set of aims relating to a particular philosophy, discipline, 

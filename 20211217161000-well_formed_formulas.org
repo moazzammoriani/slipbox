@@ -3,3 +3,4 @@
 :END:
 #+title: Well-formed Formulas
 
+In propositional logic, these are the sequence of connectives and propositions that are syntactically valid and can have truth value. For example, $\lnot \lor P$ is not a a well-formed formula, and hence meaningless so it does not have a truth value.

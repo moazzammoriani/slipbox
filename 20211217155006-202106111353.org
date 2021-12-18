@@ -3,3 +3,6 @@
 :END:
 #+title: 202106111353
 
+#daily
+- Was trying to figure out how to use the `justify-self` property while trying to make a nav bar using html and css but after a lot of debugging and then clearing my css code I realized that there is no `justify-self` property in flexbox.
+	- Turns out in order to move 	

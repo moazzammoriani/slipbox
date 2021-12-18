@@ -3,3 +3,8 @@
 :END:
 #+title: DNS
 
+What is DNS?
+
+Domain Name System or DNS serves as a directory system that maps domain names to the IP address of the host that owns that domain name.
+
+DNS typically involves entering a domain name whose corresponding host's a

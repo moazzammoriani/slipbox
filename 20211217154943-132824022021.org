@@ -3,3 +3,18 @@
 :END:
 #+title: 132824022021
 
+Defining a set in terms of enumeration involves listing down all its elements. For example, the set $A$ that contains all the integers from 1 to 10, inclusive, can be defined by enumeration as
+$$
+A = \{1,2,3,4,5,6,7,8,9,10\};
+$$
+
+The problem with this way of defining a set comes when we have to define a set with a large amount of elements or one with an infinite number of elements.
+
+this is in contrast with ellipsis notation which would define the same set as 
+
+$$
+A = \{1,2,3,\dots,9,10\}
+$$
+
+we can define the same set in set 
+

@@ -3,3 +3,4 @@
 :END:
 #+title: 144716012021
 
+Whenever you're trying to [[Learning|learn]] or understand something it is important to understand its historical context as well. This should be done while studying anything that is a part of some [[Intellectual Tradition|intellectual tradition]] or enterprise.

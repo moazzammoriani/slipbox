@@ -3,3 +3,4 @@
 :END:
 #+title: Turing Completeness
 
+A machine that can compute anything that a [[Turing machine|Turing machine]] can compute. Most programming languages are Turing complete.
