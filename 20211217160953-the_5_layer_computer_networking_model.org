@@ -3,3 +3,12 @@
 :END:
 #+title: The 5-layer computer networking model
 
+The main layers that make up the large computer networks like the internet are the the following. Each layer has its own set of technologies and corresponding protocols in order to send data.
+
+1. [[The Physical Layer]]
+2. [[The Data Link Layer]]
+3. [[The Network Layer]]
+4. [[The Transport Layer]]
+5. [[The Higher Layers]]
+
+

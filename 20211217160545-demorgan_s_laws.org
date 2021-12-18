@@ -3,3 +3,34 @@
 :END:
 #+title: DeMorgan's Laws
 
+DeMorgan's Laws in propositional logic are equivalences that connect the [[Conjunction|conjunction]] connective and the [[Disjunction|disjunction]] connective through the [[Negation|negation]] connective.
+
+$$\begin{align}
+(1)\lnot(P\land Q) \text{ is equivalent to } \lnot P \lor \lnot Q. \\
+(2)\lnot(P\lor Q) \text{ is equivalent to } \lnot P \land \lnot Q.
+
+\end{align}$$
+
+The below truth tables proves statement (1) of this law.
+
+ $P$ | $Q$ | $\lnot P$ | $\lnot Q$ | $\lnot(P\land Q)$ | $\lnot P \lor \lnot Q$
+--| --| --------| --------|------------------| --------------------
+F|F|T|T|T|T
+F|T|T|F|T|T
+T|F|F|T|T|T
+T|T|F|F|F|F
+
+
+And the one below proves statement (2) of the same law.
+
+ $P$ | $Q$ | $\lnot P$ | $\lnot Q$ | $\lnot(P\lor Q)$ | $\lnot P \land \lnot Q$
+--| --| --------| --------|------------------| --------------------
+F|F|T|T|T|T
+F|T|T|F|F|F
+T|F|F|T|F|F
+T|T|F|F|F|F
+
+
+Intuitively the statement $\lnot(P\land Q)$ being equivalent to  $\lnot P \lor \lnot Q$ makes sense because $\lnot(P\land Q)$ simply means that both $P$ and $Q$ cannot be true simultaneously while the statement $\lnot(P\land Q)$ means that either $P$ is false, $Q$ is false or they are both false. The latter statement means the same things as the former.
+
+Similarly, the statement $\lnot(P\lor Q)$ says that neither $P$ is true nor $Q$ is true. This would mean that the previous statement is only true when $P$ and $Q$ are both false which essentially is what $\lnot P \land \lnot Q$ means.

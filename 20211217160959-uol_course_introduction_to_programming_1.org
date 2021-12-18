@@ -3,3 +3,6 @@
 :END:
 #+title: UoL Course- Introduction to Programming 1
 
+Seems like this course aims to teach the [[Basics of Programming]]. My main intention with this course and its sequel is going to be to perfect my programming skills and also learn JS while I am at it. I am going to learn more advanced stuff from cs50, Berkeley's 61A and SICP and by going through those I will have learned even more than what is taught in this course and its sequel. 
+
+Of course I will have to immaculately do my assignments and use all of this as an excuse to express myself.

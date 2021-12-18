@@ -3,3 +3,14 @@
 :END:
 #+title: Little-oh Notation
 
+Little-oh is the little sibling of big-oh. If Big-oh is an analog for less-than-or equal then little-oh is the analog for strictly-less-than. The formal definition is
+
+$o(g(n)) = \{ f(n) \mid \forall k>0 \exists N>0, \forall n > N  (|f(n)| < k|g(n)|) \}$
+
+So what this relation means is that for every possible constant factor $k$ will have some point $N$ such that after that point $f(n)$ will always be less than $kg(n)$ for every $n$.
+
+An important thing to note is that this relation is true iff 
+
+$$ \lim_{n \to \infty} \frac{f(n)}{g(n)} = 0.$$
+
+This makes sense because if $g(n)$ grows faster than $f(n)$ the same way $n^3$ would grow faster than $n^2$ then the ratio $\frac{n^2}{n^3}$ would most certainly go to zero. This limit can also be used to show asyptotic [[Asymptotic dominance relations | dominance relations]].
