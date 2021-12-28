@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       72d9956a-4761-4fb0-bfc9-37958d579219
+:END:
+#+title: Algorithms
+
+* What is it?
+An algorithm is a precise description of a procedure that produces that result of some [[id:f158b572-79ac-449c-bd91-db6738382ede][computation]].
+
+* How are they relavant to humanity?
+- How do they it serve humanity?
+- Why are people interested in them?
+
+* What is its hiN

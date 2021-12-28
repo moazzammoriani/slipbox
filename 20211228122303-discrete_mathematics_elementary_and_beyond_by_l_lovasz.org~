@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       a31e660a-f750-4536-83d3-3e6e82fccbe7
+:END:
+#+title: Discrete Mathematics- Elementary and Beyond by L.Lovasz
+#+filetags: literature_notes
+
+
+* 1.1 A Party
+The subsection consists of numerous fictional scenarios that are used to illustrate counting problems.
+- Count of total handshakes at the party
+- The Number of all possible seating arrangements at the party
+- The number of all possible dance couples that can be made (boys and girls)
+- The number of all possible lottery numbers
+- The number of all possible hands in bridge
+- The number of all possible chess match pairs and how one can count them
+* 1.2 Sets and the Like
+This chapter is an introduction to set theory motivated by the creation of a formal tool set to reason abstractly about counting problems like the one from the previous chapter. At the time of this writing I know of everything talked about here more or less.
+
+** The cardinality of the union of two sets
+This idea is illustrated using exercise 1.2.13 from the text and the exercises preceding it but the idea is simple yet important. When we have any two sets $A$ and $B$, we could have one of the through possible cases:
+    1. $A \subseteq B$
+	2. $A \cap B \neq \varnothing \land A \neq B$
+	3. $A \cap B = \varnothing$
+
+So we can reason that for any set $A$ and $B$, $\|A \cup B\|$ is going to have a cardinality of either $max(\|A\|, \|B\|)$
+
+

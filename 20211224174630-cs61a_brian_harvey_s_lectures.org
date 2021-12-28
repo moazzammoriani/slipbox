@@ -1,0 +1,266 @@
+:PROPERTIES:
+:ID:       cf5d9a98-f233-4043-971d-f3fa1470ad27
+:END:
+#+title: CS61A-Brian Harvey's Lectures
+#+filetags: literature_notes
+
+* Lecture 2- Functional programming
+- Computer science is not a science and it is not about computers
+	- With the exception of theoretical computer science, it is not concerned about how the world works.
+	- Most of the problems computer scientists are trying to solve are engineering problems
+	- It is not about actual computer hardware itself because that's what electrical engineering is
+	- Brian thinks the field should instead be called software engineering but that term has been taken already and has connotations he would prefer to avoid
+	- He thinks informatik--as the word is used in european countries--is an interesting substiute for 'compute science'
+- Computer science is about the control of complexity--so much so that it is called called complexity engineering techniques.
+	- Brian harvey claims that programming is the easiest thing in the world so long as you can fit the whole program in your head
+	- Things only get complicated as a program scales up and then you can't fit the whole program in your head
+	- Complexity is managed by the use of programming paradigms which give us chunking techniques to think about a large program as one big thing which does something where we don't really need to know the details about how everything works unless we need to.
+- Abstraction is the big idea of the course
+	- To create an abstraction is to be releived of the cognitive burden of how and why something works and just be concerned about what it does so that you can use that thing
+- What is a function?
+	- He talks about the same math functions that we know about already
+- Why are functions important to computer scientists?
+	- One reason is that we already have a good theoretical understanding about how functions work and we can reason about how a program will work using that pre-existing knowledge
+	- The second reason is that functional programming allows for parallelism
+- Functions vs. Procedures
+	- A procedure is how a function is implemented.
+	- Two different procedures can be used representations of the same function
+	- Most of the time the difference isn't important until it is.
+- Functional programming and normal vs applicative order
+	- If you use procedures that aren't functions then the evaluation order matters.
+	
+* Lecture 3- Higher-order programming
+	- Generalizing patterns
+		- When you have a set of procedures doing very similar things it might be useful to isolate the part that makes them all similar and what distinguishes them.
+		- Once you do that, you can allow yourself to create a general procedure that can be tinkered to be used for all the different kinds of situations rather than having many procedures used for specific situations. 
+		- Functions as arguments allow us to generalize patterns
+			- lambda allows us to create a function on the fly 
+	
+* Lecture 4-Higher-order procedures
+- The power of procedures as data
+  - You can create a turing complete programming language just by having the ability to call procedures and define them using lambda
+	- flow of control events can be made using procedures as data 
+	- the fallback example of `keep` can be used to 
+- First-class data types
+	- What are their defining features?
+		- Can be the value of a variables
+		- Can be used as arguments to a procedure
+		- Can be the value returned by a procedure
+		- Can be member of an aggregate i.e arrays or lists
+		- Can be anonymous.
+	- Examples?
+		- Numbers are often first-class in languages
+		- Characters a first class sometimes but not always
+		- Data aggregates are hardly ever first class
+			- Pointers to aggregates are first-class but that is different from having the data aggregate itself being first-class.
+		- Procedures are hardly used as first-class procedures.
+- The need for different programming languages
+	- Different languages have different design principles
+	- One of the design principles of scheme is that everything is first-class.
+	- Other languages might have different design principles
+	- A language might be based on the principle of being easy and/or efficient to compile
+		- Some languages might have the design principle of the language being natural
+- Procedures returning procedures
+	- Procedures can return procedures than can be combined in interesting ways
+	- We can compose procedures just as we can compose functions in math.
+* Lecture 7- Orders of Growth
+ How we measure efficiency of computer programs
+- An efficient program will be one that uses produces its result in with the least resources in the least amount of time
+- We can't measure the efficiency of a program by running it and then timing it with a stopwatch
+	- The speed of a computer program, in practice, is affected by various factors including how old old the computer is, how many processe the computer is already running while the program is being executed
+	- So what we need to focus on is the dimension that is independent of such factors.
+	- This turns out to be the number of constant time operations an algorithm will perform as a function of some input $n$.
+- As computer scientists we, are interested in the worst case run-time of an algorithm
+	- This sets us free from wishful thinking when we reason about our programs.
+- Comparing algorithms
+	- Because a lot of the time when we measure the efficiency of algorithms, the function $f(n)$ that gives the worst-case run-time of a program will not be talked about for small values  of $n$.
+	- Thus, we don't care about $f(n)$ for small values of $n$.
+	- So it is the end-behaviour of functions that we care about or its asymptote.
+	- To talk about a program's asympototic or end-behaviour computer scientists use asymptotic notation.
+- Asymptotic notation
+	- Big O notation
+		- We use big O notation to specifiy the upper bounds of an algorithm
+		- If an algorithm has a worst-case run-time of $f(n)$, we can say that this particular algorithm runs at $O(f(n))$.
+		- We say $f(n) \in O(g(n)) \iff \exists k, N > 0, \forall n > N |f(n)| \leq k|g(n)|$.
+		- Thus, if we have some algorithm that runs at a worst case of $f(n) = c_1n^2 + c_2n$, where $n$ is the number of operation and $c_1$ and $c_2$ are constants, we can say that this algorithm runs at $O(n \mapsto n^2)$. This is often abbrievated to $O(n^2)$.
+		- This makes sense because we can always find some constant $k$ such that $kn^2 \geq c_1n^2 + c_2n$ once $n$ is large enough.
+		- There is a caveat with big O in terms of precision: with our very same algorithm running at a worst-case of $f(n)$ defined above, we could also say that this algorithm runs at $O(n^3)$, $O(n^4)$ and even $O(2^n)$ and this would still be technically true despite the fact that it doesn't precisely describe the run-time of the algorithm.
+		- This is why we need big $\Theta$ notation.
+	- Big $\theta$ notation
+		- We say $f(n) \in \Theta (g(n)) \iff g(n) \in O(f(n)) \land f(n) \in O(g(n))$
+* Lecture 9 - Data Abastraction	
+ Data abstraction 
+- When dealing with lots of data and we want to minimize the cognitive burden for the programmer, we try to create a barrier an abstraction barrier between the programmer and the data
+- We achieve this using _selector_ and _constructor_ procedures.
+	- Selectors are procedures that retrieve some part of the data for the programmer in a meaningful way.
+	- Constructors are procedures that allow the programmer to create abstract data types
+ Implementing pairs using lambda
+- If we have the ability to create lambda functions in a language then we can create our own version of a pair data structure
+ Building lists using the primative pairs data type in scheme
+- Pairs can be used to to build a sequence or list by having the first element in a pair contain the first item of the sequence and having the second element of the same pair contain a pair that points to the second element of the sequence and so on.
+- The sequence ends when the final item of the sequence is empty.
+
+* Lecture 12 - Heirarchical data
+ Trees
+- What are they good for?
+	- Representing heirarchical data like say all the domains of humans knowledge
+		- the first branches would be natural sciences, humanities, social sciences etc. and the rest of the branches would be the respect subdomains of each individual branch
+	- Ordering information for binary search trees which make searching algorithms faster
+	- Parse trees are structures that compilers create in order to intrepret the order of operations that are to be performed to evaluate a given expression
+ Node
+- Node vs Tree
+	- When we think about a node we are also thinking about its descendendants
+	- That means an individual node is its own tree
+	- Hence there really is no difference between a node and a tree except we use the term node when we are referring to so part of a tree
+ Tree map
+- Brian shows us an example of a function that takes a tree and returns a tree with the same structure except that each datum of every node is the result of the mapper function
+- He demonstrates that this can be done very simply using mutual-recursion but warns how tedious it can become when done recursively
+- He shows another example where he writes his own map procedure to demonstrate the what's happening under the hood of map.
+ Tree-like structures or deep lists
+- Similar kinds of data can be represented in tree-like structures called deeps lists where can translate our techniques for dealing with trees to them.
+ SICP trees vs Brian Harvey's trees
+- In SICP trees are referred to as what brian harvey calls deep lists
+- Brian harvey uses trees as a broad term 
+
+* Lecture 14 - Scheme-1 Interpreter
+ Why have a scheme interpreter inside scheme?
+- Pedagogy
+- Convey the idea of universality and a universal function
+	- The idea that we can have a machine that accepts data and produce any sort of computaional function
+
+* Lecture 16 - Generic Operators
+ How can we generalize an operations on different kinds of data?
+- Type-tagging
+ What is type-tagging?
+- To add data to existing data that provides the label for the kind of data it represents.
+ How to use type-tagging to implement generic operators?
+- One option is to create a generic operation procedure that uses a conditional to check the type of the data and then uses the appropriate sub-procedure for that specific type
+	- This idea of having an meta-operation that asks for the type-tag of a piece of data in order to know what kind of opeation it needs to perform on the paricular piece of data is called conventional style.
+	- The problem with this approach is that whenever we want to include a new type in our generic procedure we have to add a new conditional statement by editing our code. This editing can introduce bugs.
+	- The solution to this is using data-directed programming	
+- Data-directed programming
+	- The idea that we can have a generic procedure that operates on different data types except that instead of having the knowledge of how to operate on a specific kind of data hard-coded into our generic procedure, we store it in a data-structure.
+	
+** Lecture 15- Generic Operators
+
+- Message passing
+	- The idea that each piece of data that a constructor produces has its corresponding operations built into it
+	- If we make a table that has the oprations in the columns and the type-tags in the rows then message passing would be the approach of looking at operations in terms of rows as opposed to the column approach which  would be conventional style.
+- Dyadic operations
+	- When we have a dyadic opreations that deals with N types of data then we have to consider what will happen if that opreation
+	
+	
+* Lecture 21 Assignment and State
+ In this lecture Brian demonstrates the fact that scheme does not need object-oriented features built into it in for us to do object-oriented programming.
+ He shows that we can implement classes/object-constructors using 
+
+
+* Lecture 22- Environments
+
+ This lecture is concerned with explaining the explaining how the environment model for procedure evaluation and application works
+ I 
+
+* Lecture 24- Mutable Data
+ Brian starts by introducing a game in which the user is asked to imagine an animal and then the program tries to guess what animal you have thought of. If the program doesn't guess the animal correctly then it asks the user to provide a question that the program can ask the user the next time the user thinks of the same animal.
+ He goes through the code for the game and explains it comphrehensively
+ Within the code there is a new keyword called `set-car!` and brian also points out that there is a related `set-cdr!` as well. These procedures take as argument first a pair and second the new value of whatever is going to replace the car or cdr--of course with respect to which ever one of the two was called.
+ Brian then demonstrates the consequences mutation e.g the need to distinguish between identity and equailty.
+- Identity is the idea that two objects point to the same piece in memory
+	- Scheme tests identity using the `eq?` predicate.
+- Equality is the idea that two objects represent the same information but not necessarily the same place in memory
+	- Scheme tests equality using the `equal?` predicate.
+ Quoted lists cannot be mutated.
+
+* Lecture 25- Mutable Data
+ Brian introduces the idea of an asocciative list/dictionary data type and introduces its corresponding constructors, selectors and mutators
+- Associative lists are used to implement tables
+ Memoization
+
+* Lecture 26- Vectors
+ Vectors data type
+- Constuctor 
+- Selectors
+- Mutators
+- Operations
+ Vectors programming example
+ Vector programming v. list programming
+
+* Lecture 27- Streams
+ Finding prime using lists
+- The idea is to create a list of a sequnce within a specific range and then filter out all the primes in the sequence
+- The problem of this approach is that the whole range needs to be generated before the filtering
+	- This is overkill because the factor of a given number may have a very small factor but the number itself may be incredibly large
+ Finding prime using an iterative approach
+- Here the approach is to create an iterative procedure which iterates over all the integers up to a number n or sqrt(n) to check if that number is prime or not.
+- Over here the procedure stops as soon as a factor is found and this prevents any redundant computing of factors
+ Brian argues that the list method is easy to read and more elegant
+- He wants the efficiency of the iterative approach with the elagance of the filtering approach
+ Streams
+- A stream is an ADT for sequences which is implemented as a pair that contains an item like a number in its car and the cdr doesn't contains the next item in the sequence, rather it contains a promise to compute the next item in the sequence
+ Program form vs. actual events
+- Programming is no longer exclusively based on providing the exact instructions for a computer to do linearly
+- Modern computers try to do multiple tasks as one 
+ Streams implementation
+- The meat of a stream is the `cons-stream` constructor which is a regular `cons` with the key exception that the cdr of the `cons-stream` is a piece of compution that we delay until it is called
+- The `delay` special form
+	- How do we prevent applicative order from evaluting the cdr of a `cons-stream`? We use the `delay` special form.
+	- Delay can be implemented by putting using lambda however it is not done so in practice due to efficiency reasons.
+- The `stream-car` selector is simply `car`
+- The `stream-cdr` selector is not simply `cdr`, rather it is `(force (cdr s))` where `s` is some stream pair.
+	- If `delay` is implemented using a lambda expression then `force` can be implemented as the returned value of the expression hidden in the lambda expression that implemented `delay`
+ Infinite streams
+- Brian uses the infinite streams of ones to generate an infinite stream the contains all the integers
+- He then applies the sieve of eratosthenes to this infinite list of integers and gets an infinite list of primes 
+
+* Lecture 29 Client-server programming
+
+
+* Lecture 31 Concurrency 
+ The problem introduced by concurrent processes
+- Brian sets up a hypthothetical example using assembly code where two concurrent processes operate on a shared variable at the same time and the concurrent nature of the process leads to a possible wrong answer
+ The solution to programming effective concurrent systems
+- Defining critical sections where a more than 
+- This critical section idea is implemented using seralizers, in scheme we do this using the `make-serializer` constructor.
+	- Thus if we have a procure p1 with the sequence of events (a, b, c) and another procedure p2 which operates on some shared data with p2 then the serialization of p1 and p2 will allow only for the two possible situations to occur if p1 and p2 run concurrently: (a, b, c, x, y, z)  or (x, y, z, a, b, c). Thus, the two processes do not overlap.
+ Abstraction diagram for the implementation of the `make-serializer`  constructor
+ how things can go wrong when programming with concurrency
+- Incorrect answer
+	-  The way you decide on what the correct result for operetions happening in parallel is to know what the correct result would have been if the proccesses weren't happening in parallel and if they were happening sequentially.
+- Inefficiency
+- Deadlock
+- Unfairness 
+
+* Lecture 32 Concurrency 
+- Brian talks about the consequences of introducing critical sections in concurrent programmingo
+  - Correct answers
+	- In concurrent programming there can be more than one correct answer depending on whether event A happened before event B or event B happened before event A. Both answers can be correct depending on what you're trying to do
+	- The best rule of thumb is that you should get the same result from a parallel computation as if you had the the computation sequentially.
+  - Inefficiency
+	- Finding the goldilocks zone in terms of granularity
+		- We can define our concurrency restrictions to be fine-grained or coarse-grained.
+		- A fine-grained restriction would involve having to keep track of many different variables, but if done right would give speed and efficiency at the cost of complexity
+		- A coarse-grained restriction would provide inefficiency at the cost of convenience.
+		- There are the decisions a programmer would have to make when they design their systems.
+  - Deadlock
+	- This occurs when two different threads require both some protected variables x and y but one of the thread acquires x first and one of the threads acquires y first then they are both stuck because since both of them require the other variable but they can't acquire it from each other so they are in a deadlock
+	- Solution to deadlocks
+		- You design your program to prevent deadlocks at all costs
+		- Or you let deadlocks happen and then have some other thread that acts as a deadlock-cop that pokes around the OS looking for deadlocks and if it finds one then it restarts one or both the processes.
+		- Or you can have all the proccesses have a list of requests for protected variables and data then the OS looks at this list and then gives each process the respective variable in its respective thread in a way so that deadlocks don't happen.
+  - Unfairness
+	- When some particluar process dominates some other process always in acquiring some protected data
+	- It's fine so long as no process is starved of resources
+	- The solution is round robin scheduling where the OS remembers who got it last time and then cycles around who go it last time.
+- Need for levels of abstraction in implementing serializers
+  - So that programs remain portable across different platforms.
+
+* Lecture 36 Metacircular Evaluator
+- The circulalarity in the metacircular evaluator
+  - One part of the circulalarity is the mutual recursion of the eval and apply operations
+  - Another is that its a scheme interpreter in scheme
+- Universality
+  - This is the idea that started the computer revolution
+  - Universaltiy happens at many levels of abstraction from the hardware to the software level
+  - The idea is that instead of having many small machines that do one thing, we can have a big metamachine that takes as data the instructions for what the smaller machine did and also it also takes in the data that the smaller machine did as well.
+  
+	

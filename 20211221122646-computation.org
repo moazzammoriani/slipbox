@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       f158b572-79ac-449c-bd91-db6738382ede
+:END:
+#+title: Computation
+
+What is a computation?
+
+computation the noun vs computation the verb
+
+Computation the noun is a process. While computation the verb is the result of some computational process.

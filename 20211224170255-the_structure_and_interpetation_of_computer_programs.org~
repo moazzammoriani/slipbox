@@ -1,0 +1,212 @@
+:PROPERTIES:
+:ID:       a1f30077-7e81-4f29-9f61-36c492a861b5
+:END:
+#+title: The Structure and Interpetation of Computer Programs
+#+filetags: literature-notes
+
+* 1- Building Abstractions with Procedures
+
+- The books begins by talking about a 'computational process' which I define as that execution of a computer program.
+- The authors draw a parallel between programming and sorcery; where the computational process is the spirit conjured by means of the computer program which is the programmer's spell used to direct and guide this spirit.
+- Their own intangibility yet their very obvious tangible results is another parallel drawn between the spirits of the sorcerer and the computational process of the programmer.
+- Both master sorcerer's and master programmers/software engineers require powers of anticipation
+- A good software engineer can make visualize the results of their processes and prevent them from producing catastropies when they fail.
+- And when their programs fail they can easily debug them.
+- The rest of the chapter's introduction talks about the history, power and utility of lisp.
+
+** 1.1- The elements of Programming
+- The three ways a powerful programming language provides us with framework for translating our ideas into computational processes are the following.
+	- primitive data
+	- a way to combine primitive data with primitive procedures
+	- the ability to create abstract callable units of compound elements
+	
+*** 1.1.1- Expressions
+- The authors go over examples primitive data, primitive procedures and how they are combined to create expressions in the syntax of lisp.
+- They go over the prefix notation of scheme and how primitive data can be combined with primitive procedures by nesting and adding more data in ways only limited by the imagination.
+- By going over these examples of expressions in the scheme interpreter, they showcase its read-evaluate-print loop.
+  
+*** 1.1.2- Naming and the environment
+- The author introduce variable declration in scheme and its syntax and call variable declaration the simplest way of building abstraction.
+- I suppose it is abstraction in the sense that the programming language shifts the burden of recalling some to the computer's memory instead of the human's memory.
+- The variable, however, despite being stored in the computer's memory in implementation, is within the practice of programming in scheme, stored in its global environment if it is declared globally and it can be stored in different environments depending on where it has been declared.
+
+*** 1.1.3- Evaluating Combinations
+- Evaluating combinations is a recursive procedure because it calls itself
+		- The interpreter evaluates an experession in the folowing way
+		1. It evaluates the sub-expressions of the combination
+		2. It checks to see what the procedure/operator it needs to apply to the operands and applies it to them
+	- This recursive evaluation procedure exemplifies tree accumulation where the values of the terminal nodes move upwards.
+- Special forms within scheme do not have the general evaluation rule applied to them they have their own evaluation rule.
+
+*** 1.1.4- Compound Procedures
+- Here it is shown how a compound procedure can be made and be used a  building block for even complicated procedures.
+
+*** 1.1.5- The Substitution Model for Procedure Application
+- How compound procedures are evaluated by the interpreter can be understood using the substitution model of procedure application.
+	- This says that the interpreter evaluates a compound procedure to arguments by substituting formal parameters with the corresponding arguments.
+	- It is important to remember that it is only a model and there exist some subtle differences in how the actual implementation of the interpreter.
+- Applicative vs. Normal Order
+	- Applicative order evaluates an expression from left to right, moving to the right after is has evaluated each subexpression 
+	- Normal order expands the definition of all procedures until it arrives at primitive procedures which require evaluation.
+
+*** 1.1.7- Example: Square Roots by Newton's Method
+- The distinction between a function and a procedure.
+	- A function will describe the mapping of objects from one set to another but it is not required to tell us the computation required to obtain the result of the mapping.
+	-  To represent a function as a procedure we need to provide the precise steps necessary to compute the result of a particular mapping.
+-  Newton's method for square roots is a method for computing the result of a function for a particular value.
+-  
+
+** 1.2 Procedures and the Processes They Generate
+- Having known the elements of programming, we need to know the typical kinds of procedures and be familiar with the kinds of processes they bring about upon being executed to build our skill of being able to anticipate the behaviour of computer processes.
+
+*** 1.2.1 Linear Recursion and Iteration 
+- Linear recursive process
+	- It is characterized by the unwinding of a sequence of deferred operations until the base case is reached after which the sequence begins to winds itself up, collecting the values at each step until the final expression to be evaluated is reached--which was also the first expression in the sequence.
+	- The procedure itself does not need to have explicit mechanisms to keep track of where the processes is as it evolves. 
+- Iterative process
+	- This process evolves by having a state variable that is updated at each step of the process and rule to know at what state of the state variables should the process terminate.
+- Recursive process vs Recursive procedure
+	- A recursive process is one that has the characteristics of a recursive process i.e winding/unwinding motion and the deferred operations.
+	- A recursive procedure is one with the syntantic feature of calling itself.
+- Inefficiency of recursive procedures in common programming language implementations
+	- Many languages including C are designed in a way so that recursive procedures end up consuming and increasing amount of memory as the procedure calls increase. 
+	- Such languages resort to looping constructs to maintain efficiency
+	
+*** 1.2.2 Tree Recursion
+- A process that evolves by means of tree recursion typically involves a procedure that returns a final value the involves more than one recursive call. 
+- As a tree-recursive process evolves, each part of a recursive call branches, which in turn creates another branch until a base-case is reached.
+- Tree recursion may often be inefficient because of the fact that it a lot of computation is done more than once.
+- Writing tree-recursive procedures may allow us to express a solution in a way that seems natural and maybe such a solution can be the precursor to a more efficient solution.
+
+*** 1.2.3 Orders of Growth
+- How the efficiency of programs in measured
+- Big $\Theta$ notation.
+
+*** 1.2.4 Exponentiation
+- Algorithms for computing integer exponents
+	- A $\Theta (n)$  steps  and $\Theta (n)$ space recursive algorithm for exponentiation
+	- A $\Theta (n)$  steps  and $\Theta (1)$ space iterative algorithm for exponentiation
+	- An algorithm that computes the exponent of a number in $\Theta (log_2 n)$ steps.
+** 1.3 Formulating Abstractions with Higher-Order Procedures
+
+- Abstractions allow us to manipulates higher level ideas with greater ease.
+
+*** 1.3.1 Procedures as Arguments 
+- If we have procedures that work in similar ways like the summation of a series then we have the options to create general procedures
+- General procedures can take in other procedures and allow us for more flexibility and maneuvarability in thought.
+- It can also simplify our code
+- They allow us to create powerful abstractions
+
+*** 1.3.2 Constructing Procedures Using `lambda`
+- We can create anonymous functions on-the-fly using lambda.
+	- For example `((lambda (x) (* x x)) 2)` would evaluate to `4`.
+- We can use the `let` to abbrievate the process of writing a lambda expression and then assigning the values to its variables.
+	- The squaring example mentioned above can be rewritten using lambda 
+	   ```
+	   (let ((x	2))
+	        (* x x))
+			
+	   ```
+- Lambda and let then allow for us to use local variables
+
+* 2- Building Abstractions with Data
+** 2.1 Introduction to Data Abstraction
+- Just as how the implementation of a procedure is abstracted when we use that procedure as data in and of itself, we can abstract away the details of how a compound data object is used to model something.
+- A programmer can treat a compound data object as the abstract concept it represents e.g like a rational number or a complex number rather than thinking about the concrete data structure used to represent it.
+
+*** 2.1.1 Example: Arithmetic Operations for Rational Numbers
+- This subsection starts with the the authors working top-down towards the goal of an implementation for rational numbers.
+	- The authors assume the existence of constructors and selectors to define procedures that use these constructors and selectors to make rational number arithmetic possible.
+	- This approach reminds me of the problem-solving approach Polya talks about in his How to Solve It.
+- Pairs
+	- These are the primative data types used to implement the abstract rational numbers
+	- As the name suggests, they accept pairs of data and and the 0th index element is called car and the 1st index element is called cdr.
+
+*** 2.1.2 Abstraction Barriers
+- What it is
+	-  It creates a separation between users and the type of data they are allowed to work with depending on what they are trying to do
+	-  This seperation is created by only allowing users to access and construct the compound data-type that is concerned with the conceptual level that they are working with.
+- The benefit
+	- By creating abstraction barriers, the result of the program is orthogonal to the implementation of different data types at different levels.
+	- This allows for different parts of the program to be modified independently without and changed in the future	without worry that it may result in the whole program to break.
+	- It allows the overall program to have the ability to be flexible.
+	
+*** 2.1.3 What Is Meant by Data?
+- Data is whatever that is implemented by its related constructors and selectors in accordance to some condition that it must fulfill for it to be a valid representation of what it is representing.
+
+** 2.2 Heirarchical Data and the Closure Property
+- Box and pointer diagrams
+	- The authors introduce a graphical model to allow us to think about pairs.
+- The closure property
+	- This is unrelated to the closure concept used in functional programming somehow and is more related to the concept from abstract algebra.
+	- An operation satisfies the closure property if the same operation can be performed on one of its own results.
+- Heirachical structures using the closure property
+	- If we make us of the closure property of something like `cons` then we can create nested structures.
+	- As we continue to nest structures within structures, this creates a heirarchical data.
+*** 2.2.1 Representing sequences
+- Building sequences/lists
+	- Lists are built heirarchically using the closure property of `cons`.
+	- Lists aren't exactly abstract data types because Scheme knows about them.
+		- Abstract data type here meaning that they exist in the programmer's head and the programming language being unaware of what the data represents.
+- List operations
+	- We select the nth element of a list using the `list-ref` procedure.
+	- Selecting the length of a list can be done using the `length` procedure.
+	- The addition of an element to the end of a list can be done using the `append`procudure.
+	
+*** 2.2.2 Heirachical Structures
+- The closure propert of `cons` allows us to create heirachical structures like lists but we can extend this heirachy even further and start thinking of lists more abstractly.
+- We can think of nested lists abstractly in terms of trees and we can even nest trees inside trees.
+- When we want to manipulate and transform trees, recursion turns out being the most natural tool.
+-  
+	
+*** 2.2.3 Sequences as Conventional Interfaces
+- This subsection involves using lists to write beautiful and modular programs
+- The techniques described in this sub-section are desribed as the way a signal processing engineering might think about their systems but the way I think about it is that the main procedure is a factory and sequences that come into this factory are processed by different plants(e.g the map plant the, accumulate plant and the filter plant) within this factory and then packaged out and sent out as output
+- Nested mappings are provided as an alternative to nested loops for greater abstraction
+
+** 2.4 Multiple Representations for Abstract Data
+- The main idea is to have different representations for some abastract data where the different representations work in harmoney with the operations that are performed upon them.
+
+*** 2.4.1 Representations for Complex Numbers
+- The authors present us with a situation where complex numbers are represented as an abstract data-type in two different representations: polar and rectangular form.
+- The authors demonstrate that data-abstraction can allow for the complex arithmetic package to be used independent on whatever representation chosen by a user.
+
+*** 2.4.2 Tagged Data
+- The authors point out that despite the fact that the higher-abstraction level arithmetic package can work on both representations, a user who is freely switching between polar and rectangular forms has to keep track of what representation they are using to use the appropriate selectors and constructors.
+- To deal with this problem of having to remember the representation, the authors introduce type-tagging as a solution.
+- The idea is that each data object has two parts to its data: the *type-tag* and the *datum*.
+-  Each higher abstraction level procedure is implemented by checking the type in cond clauses and then applying the appropriate corresponding procedure to the datum. 
+*** 2.4.3 Data-directed programming
+- The approach of type-tagging data is fruitful in maintaining data abstraction for a user but when a new type is added to a system such as the complex number system then this would result in having to modify existing code and this may be fine for a system with 2 types but for a system with 100s of types it would be very easy to break the whole system when trying to modify it.
+- In order to tackle this problem of interfacing new types to an existing system, the authors introduce the idea of data-directed programming as a solution to it.
+- Data-directed programming involves having to use procedures as data in a way so that a generic operator can be used to fetch a corresponding operation-procedure based on the type-tag of the data object.
+- Message-passing
+	- This is the approach of having the operations packaged along with the data object so that a generic operator is not needed, the procedure has its appropriate operations built inside it.
+	- If we want to perform an operation on this data object we simply give it the message to do so.
+- 
+
+* 3- Modularity, Objects and State
+
+** 3.1	Assignment and Local State
+- The authors point out that there are various real-world systems which are composed of smaller objects whose state changes depending on some other change in the system.
+- In order to model the change in state of objects in a system the author express that a programming language needs to provide an assignment operator to mutate the existing data indicating the current state of any particular object
+
+*** 3.1.1 Local State Variable
+- The authors introduce `set!` as the assignment operation in scheme.
+- Global and local state is distinguished and it is shown that local state can be maintained by procedures
+	- A variable introduced in a procedure remains local only within a that procedure
+- It is shown that a procedure that is locked away with its own internal scope of variables and along with its own dispatch procedure can create an object that accepts messages.
+
+*** 3.1.2 The Benefits of Introducing Assignment
+
+
+** 3.4 Concurrency: Time is of the Essence
+*** 3.4.1 
+** 3.5 Streams
+- Streams are introduced as an alternative means to module state without using assignment
+- The idea of a stream is introduced using the metaphor of a phyicist reasoning about the position function of some particle. The particle's motion change over time but the function remains the same.
+
+*** 3.5.1 Streams Are Delayed Lists
+[[CS61A- Brian Harvey's Lectures|Refer to lecture 27 of brian harvey's cs61a class]]
+		
+
